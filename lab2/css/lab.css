@@ -1,5 +1,7 @@
   #content
-
+h1, p {
+  align-self:center;
+}
   h1 {
     color: rgb(40, 80, 52);
     font-size: 200%;
@@ -10,7 +12,7 @@
   font-family: cursive;
   text-indent: 20px;
   margin-left: 10px;
-  text-align: center;
+  align-items: center;
   }
   
   #content {
@@ -21,6 +23,10 @@
     margin: 10px;
     align-items: center;
   }
+  html {
+    max-width: 700px;
+    max-height: 600px;
+}
 
 #standing {
   display: grid;
