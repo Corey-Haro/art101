@@ -21,13 +21,10 @@ h1, p {
     min-height: 700px;
     padding: 10px;
     margin: 10px;
-    align-items: center;
+    align-content: center;
   }
 
-
-
-  .standing {
-    width: 50px;
-    height: 100px;
-    align-content: center;
+  #standing {
+    display: grid;
+    place-items: center;
   }
