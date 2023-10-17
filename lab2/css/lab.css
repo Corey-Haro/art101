@@ -27,3 +27,10 @@
     display: grid;
     place-items: center;
   }
+ 
+  .minor-section {
+    padding: 10px;
+  margin-bottom: 25px;
+  border: solid 5px #548ea9;
+  background-color: #4d3664;
+  }
