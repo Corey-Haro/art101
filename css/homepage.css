@@ -1,9 +1,10 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
+#galax {
   margin: 10px;
-  max-width: 500px;
+  width: 100px;
 }
 #my-portrait {
-  width: 500px;
+  width: 300px;
+  align-content:space-around;
 }
