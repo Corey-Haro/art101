@@ -1,21 +1,21 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5: Data Types and Variables
+// Author: Corey Haro
+// Date: 10/ 25 /2023
 
-// Constants
+// Define Varibables
 
-// Functions
+make = "Toyota"
+model = "Tundra"
+color = "White"
+year= "2016"
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// Calculate
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+age = 2023 - year
 
-// let's get this party started
-main();
+// Outputs
+
+document.writeln("Make: " + make + " <br")
+document.writeln("Model: " + model + " <br")
+document.writeln("Color: " + color + " <br")
+document.writeln("Age:" + make + " years<br")
