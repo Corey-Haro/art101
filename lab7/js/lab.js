@@ -1,3 +1,12 @@
+// index.js - Lab 7: Functions
+// Author: Corey Haro
+// Date: 11/2/23 
+
+// Creating a function 
+
+
+
+
 // sortUserName - a function that takes user input and sorts the latters
 // of their name in random order
 function sortUserName(){
