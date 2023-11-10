@@ -24,15 +24,18 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #301550;
+  border: solid 5px #301550;
   background-color: #80689b;
+  font-family: Times New Roman;
+  color: #c3bacd;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 25px;
-  border: solid 5px #a954a9;
+  border: solid 5px ;
   background-color: #4d3664;
-  color: #c3bacd;
+
 }
+

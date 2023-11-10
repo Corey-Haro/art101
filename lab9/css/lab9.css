@@ -1,0 +1,73 @@
+/* Corey Haro */
+/* Lab 9: Libraries & jQuery */
+/* 11/8/23 */
+
+/* Original Colored Sections */
+
+.challenge {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px #28174e;
+    background-color: #5a447d;
+  }
+  
+  .problems {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px #28174e;
+    background-color: #5a447d;
+  }
+  
+  .reflection {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px #28174e;
+    background-color: #5a447d;
+  }
+  
+  .results {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px #28174e;
+    background-color: #5a447d;
+  }
+  
+  .java-script-output {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px #28174e;
+    background-color: #5a447d;
+  }
+
+
+/* Changed colored sections */
+.challengespecial {
+  background-color: lavender;
+  color: black;
+}
+
+.problemsspecial {
+  background-color: darkgreen;
+  color: white;
+}
+  
+.reflectionspecial {
+  background-color: pink;
+  color: black;
+}
+  
+.resultsspecial {
+  background-color: aqua;
+  color: white;
+}
+
+.javascriptoutputspecial {
+  background-color: red;
+  color: black;
+}
+
+/* Bouns Task Button */
+.bonusbutton {
+  background-color: darkorchid;
+  color: #d0a0dd;
+}
