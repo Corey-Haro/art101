@@ -21,3 +21,23 @@
     border-radius: 15px;
     min-height: 100px;
   }
+  
+ .text:nth-child(odd) {
+    text-align: left; 
+ }
+
+ .text:nth-child(even) {
+  text-align: right; 
+}
+
+.text:nth-child(odd) p {
+  color: black;
+  background-color: lightcyan
+}
+.text:nth-child(even) p {
+  color: white;
+  background-color: blue;
+}
+
+
+

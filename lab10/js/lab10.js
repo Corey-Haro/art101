@@ -1,6 +1,7 @@
 // index.js - Lab 10: Javascript for the Web
 // Author: Corey Haro
 // Date: 11/15/23 
+// credit to Wes Modes and Priscella Dolang
 
 
 function generateRandomText() {
