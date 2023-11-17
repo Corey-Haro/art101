@@ -4,9 +4,12 @@
 
 console.log("Javascrip is working")
 $("#my-button").click(function(){
-    console.log("button clicked!");
-    var prompt = prompt("What is your name?");
+    // console.log("button clicked!");
+    var name = $("#input").val()
+
     console.log("prompt returned:" + name);
+
     newText = "Hello" + name + "!";
-    $("#tittle").html
+    $("#tittle").html(newText);
 })
+
