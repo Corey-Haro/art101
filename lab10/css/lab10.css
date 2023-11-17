@@ -16,8 +16,8 @@
   #output {
     padding: 10px;
     margin: 10px;
-    border: solid 1px blue;
-    background-color: rgb(245, 220, 239);
+    border: solid 1px rgb(54, 28, 71);
+    background-color: rgb(221, 185, 233);
     border-radius: 15px;
     min-height: 100px;
   }
@@ -32,11 +32,11 @@
 
 .text:nth-child(odd) p {
   color: black;
-  background-color: lightcyan
+  background-color: rgb(240, 234, 255)
 }
 .text:nth-child(even) p {
-  color: white;
-  background-color: blue;
+  color: rgba(255, 255, 255, 0.692);
+  background-color: rgb(83, 83, 152);
 }
 
 
