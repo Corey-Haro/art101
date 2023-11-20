@@ -1,0 +1,20 @@
+/* Corey Haro */
+/* Lab:11 JavaScript Events and Forms */
+/* 11/19/23 */
+/* Credit for help and coding:
+ Priscella Dolang & Wes Modes */
+
+ #output {
+    padding: 10px ;
+    margin-bottom: 10px;
+    border: solid #baa9c7;
+    background-color: rgb(192, 148, 206);
+
+ }
+
+ .text, .color, .date, .number {
+    color: rgb(83, 63, 97);
+    font-size: 120%;
+    font-family: cursive;
+    font-weight: bold;
+ }

@@ -10,7 +10,7 @@ function sortString(inputString){
 return inputString.split('').sort().join('');
 }
 // Click listener for button
-$("#submit").click(function(){
+$("#submit-name").click(function(){
 
 
 //get value of input 
@@ -19,6 +19,24 @@ const userName = $("#user-name").val();
 
 //aappend a new div to our output div
 $("#output").html('<div class="text">' + userNameSorted + '</p></div>');
-})
+});
+
+$("#submit-color").click(function(){
+    const useColor = $("#fav-color").val();
+    $("#output").append('<div class="color"><p> Your favorite color: ' + useColor + '</p></div>');
+
+});
 
 
+$("#submit-birth").click(function(){
+    const useBirthDay = $("#birth-day").val();
+    $("#output").append('<div class="date"><p> Your birthday: ' + useBirthDay + '</p></div>');
+
+});
+
+
+$("#submit-animal").click(function(){
+    const useAnimal = $("#fav-animal").val();
+    $("#output").append('<div class="animal"><p> Your favorite animal: ' + useAnimal + '</p></div>');
+
+});
