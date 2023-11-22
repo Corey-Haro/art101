@@ -35,9 +35,9 @@ $("#submit-birth").click(function () {
 });
 
 
-$("#submit-animal").click(function () {
-    const userAnimal = $("#fav-animal").val();
-    $("#output").append('<div class="animal"><p> Your favorite animal: ' + userAnimal + '</p></div>');
+$("#submit-number").click(function () {
+    const userNumber = $("#fav-number").val();
+    $("#output").append('<div class="number"><p> Your favorite number: ' + userNumber + '</p></div>');
 
 });
 

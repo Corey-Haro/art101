@@ -13,7 +13,7 @@
  }
 
  
- .text, .color, .date, .animal {
+ .text, .color, .date, .number {
     color: rgb(83, 63, 97);
     font-size: 120%;
     font-family: cursive;
