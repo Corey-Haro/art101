@@ -2,20 +2,30 @@
 /* Lab 13: loops */
 /* 11/26/23 */
 /* credit to Wes Modes and Piscella Dolang */
+.content {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #503a84;
+    background-color: #2d1653;
+  }
+  
 
 .input {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px rgba(56, 36, 65, 0);
-    background-color: blueviolet;
-    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px #c3bacd;
+  border: solid 1px #c4bbcf;
+  background-color:  #301550;
+    font-family: cursive;
+    color: #c3bacd;
 }
 
 #output {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px rgba(56, 36, 65, 0);
-    background-color: blueviolet;
-    font-family: 'Courier New', Courier, monospace;
+    border: solid 5px #c4bbcf;
+    background-color: #4d364d;
+    font-family: cursive;
     column-count: 7;
+    color: #c3bacd;
 }
