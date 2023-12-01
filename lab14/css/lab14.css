@@ -7,7 +7,7 @@ Date: 11/29/23 */
     padding: 10px;
     margin-bottom: 10px;
     border: solid 5px #28174e;
-    background-color: #b39ed4;
+    background-color: #7f69a2;
   }
 
   .cat {
@@ -21,7 +21,7 @@ Date: 11/29/23 */
    place-items: center;
   }
 
-  h2{
+  h2 {
     letter-spacing: 3px;
      word-spacing: 5px;
     font-size: 200%;
