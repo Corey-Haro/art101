@@ -1,7 +1,29 @@
+/* Lab:14 Debugging 
+Author: Corey Haro
+Date: 11/29/23 */
+/* Coding credit to Pricella Dolang and Wes Modes */
+
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 5px #28174e;
-    background-color: #5a447d;
+    background-color: #b39ed4;
   }
-  
+
+  .cat {
+    padding: 20px;
+    border: solid 5px seagreen;
+    background-color: rgb(72, 101, 92);
+  }
+
+  #standing{
+   display: grid ;
+   place-items: center;
+  }
+
+  h2{
+    letter-spacing: 3px;
+     word-spacing: 5px;
+    font-size: 200%;
+    color: #28174e;
+  }
