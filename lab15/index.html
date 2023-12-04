@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 15 - AJAX</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab15.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="js/lab15.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 15: AJAX </h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p> the challange for this lab was to create a random 
+                        image generator using jQuery and AJAX </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p> I honestly had no problems, there wasnt any issues or 
+                        road blocks. I think the only issue I had was not putting 
+                        my commas which I ended up catching on to early on, so I 
+                        was able to avoid the problem. 
+					</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p> I enjoyed this lab, I feel like seeing what we 
+                        learned in class come to life fills in the parts I 
+                        was confused on.  
+					</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<div id="output"></div>
+					<p>The fruit of my labor is down below!</p>
+			</div>
+
+            <div id="output">
+                <h3> Random Doggie Generator</h3>
+                <button id="activate">Activate!</button><br>
+                <img id="dogImage" src=""><br>
+                
+            </div>
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+			<ul>
+            <li> <a href="/lab15.js" target="_new">Javascript file</a></li>
+			<li> <a href="https://corey-haro.github.io/art101/" target="_new">Homepage</a></li>
+		</nav>
+	</main>
+</body>
+</html>
