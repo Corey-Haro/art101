@@ -1,0 +1,19 @@
+/* Corey Haro
+Lab: 16
+Date: 12/7/23
+Coding Help: Priscella Dolang */
+
+#comic-display{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 10px rgb(108, 97, 119);
+    background-color: rgb(108, 97, 119);
+    font-family: cursive;
+}
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
