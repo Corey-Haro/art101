@@ -3,10 +3,10 @@ Lab: 16
 Date: 12/7/23
 Coding Help: Priscella Dolang */
 
-#comic-display{
+#comic-display {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 10px rgb(108, 97, 119);
+    border: solid 5px rgb(31, 5, 56);
     background-color: rgb(108, 97, 119);
     font-family: cursive;
 }
